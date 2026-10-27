@@ -2,7 +2,7 @@
 
 > One platform for connected, consent-aware care across hospitals, clinicians, patients, and approved family caregivers.
 
-[Open the live demo](https://carebridge-sairam.chummy-tune-1523.chatgpt.site/) · [View the GitHub repository](https://github.com/PSujith-Kumar/sri-sai-ram-hackathon-24-hr-)
+[Open the live demo](https://carebridge-sairam.chummy-tune-1523.chatgpt.site/) 
 
 CareBridge is a responsive multi-hospital healthcare-assistance prototype built for the Sairam VERDICT hackathon. It combines hospital administration, role-scoped patient access, queues, appointments, indoor navigation, health reports, medicines, family coordination, and an optional AI wellbeing companion in one React application.
 
