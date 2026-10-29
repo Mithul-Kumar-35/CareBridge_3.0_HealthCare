@@ -10,7 +10,7 @@ The repository uses only fictional hospitals and patients. It is a demonstration
 
 ## Contents
 
-- [Problem statement](#problem-statement)
+- [Problem statement](#problem-statement) 
 - [How CareBridge solves it](#how-carebridge-solves-it)
 - [Why CareBridge](#why-carebridge)
 - [Demo data](#demo-data)
