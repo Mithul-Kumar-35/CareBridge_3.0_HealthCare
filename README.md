@@ -97,7 +97,7 @@ The prototype focuses on five principles:
 The included dataset is intentionally rich enough for role and workflow testing.
 
 | Entity | Included test data |
-|---|---:|
+|---|---|
 | Hospitals | 4 |
 | Departments | 12 |
 | Users | 32 |
