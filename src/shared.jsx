@@ -1,7 +1,10 @@
 import React from 'react'
 
 export const classNames = (...values) => values.filter(Boolean).join(' ')
-export const addressName = user => user?.name?.split(' ')[0] || 'there'
+export const addressName = user => {
+  const parts = user?.name?.split(/\s+/).filter(Boolean) || []
+  return ['Dr.', 'Dr', 'Prof.', 'Prof'].includes(parts[0]) ? parts[1] || 'there' : parts[0] || 'there'
+}
 export const greeting = () => {
   const hour = new Date().getHours()
   return hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening'
