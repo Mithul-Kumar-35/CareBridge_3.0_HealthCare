@@ -55,7 +55,7 @@ This repository solves those problems as a **fictional, testable prototype**. It
 
 CareBridge uses one shared, versioned care model and presents a different, permission-scoped workspace to each role. A change is recorded once and then becomes visible only in the authorized views that depend on it. For example, when a doctor creates a report, the patient can read the same report; an approved father can see it only if the relationship includes records access and the report is shared with family; an unrelated patient or doctor cannot see it.
 
-| Problem | CareBridge capability | Result | Privacy or safety control |
+| Problem | CareBridge capability | Result | Privacy or safety control | 
 |---|---|---|---|
 | Disconnected hospital services | One data graph for hospitals, users, relationships, appointments, queues, reports, medicines, and notifications | Updates stay consistent across role dashboards and browser tabs | Every query is filtered by role, hospital, assignment, relationship, and action permission |
 | Complex hospital hierarchy | Network, hospital, department, and clinician administration | Admins can model a dean, department heads, specialists, patients, and caregivers for multiple fictional hospitals | Hospital-scoped roles cannot cross into another hospital's workspace |
